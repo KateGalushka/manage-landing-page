@@ -727,6 +727,9 @@ h4 {
 	}
 	&__button {
 		padding: toRem(10) toRem(18);
+		&:hover, &:focus {
+			box-shadow: 0 3px 5px $neutral-33;
+		}
 	}
 	// .footer__copyright
 	&__copyright {

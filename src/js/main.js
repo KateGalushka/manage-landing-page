@@ -39,7 +39,7 @@ menuLinks.forEach(link => link.addEventListener('click', () => {
 //***************Slider******************************* */
 
 const swiper = new Swiper('.swiper', {
-	// loop: true,
+	loop: true,
 	autoHeight: true,
 	// slidesPerView: 2.5,
 	spaceBetween: 20,
@@ -88,7 +88,6 @@ function onEntry(entry) {
 
 let options = {
 	// threshold: [1],
-
 };
 
 let observer = new IntersectionObserver(onEntry, options);
