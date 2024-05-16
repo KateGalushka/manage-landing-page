@@ -522,6 +522,7 @@ h4 {
 		max-width: toRem(550);
 		display: grid;
 		justify-items: center;
+		align-self: stretch;
 		gap: toRem(20);
 		position: relative;
 		background-color: $neutral-4;

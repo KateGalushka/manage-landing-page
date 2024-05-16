@@ -39,11 +39,11 @@ menuLinks.forEach(link => link.addEventListener('click', () => {
 //***************Slider******************************* */
 
 const swiper = new Swiper('.swiper', {
-	loop: true,
+	// loop: true,
 	autoHeight: true,
 	// slidesPerView: 2.5,
 	spaceBetween: 20,
-	slidesPerGroup: 1,
+	// slidesPerGroup: 1,
 	centeredSlides: true,
 	initialSlide: 1,
 	grabCursor: true,
@@ -54,8 +54,8 @@ const swiper = new Swiper('.swiper', {
 		768: {
 			slidesPerView: 2,
 		},
-		992: {
-			slidesPerView: 2.5,
+		1280: {
+			slidesPerView: 3,
 		},
 	},
 
