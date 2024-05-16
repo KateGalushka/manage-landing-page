@@ -225,6 +225,7 @@ h4 {
 	// .navbar__link
 	&__link {
 		padding: toRem(8);
+		z-index:2;
 		a {
 			color: $primary-2;
 			font-weight: 500;
